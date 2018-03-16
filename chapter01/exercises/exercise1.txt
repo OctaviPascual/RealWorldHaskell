@@ -1,0 +1,44 @@
+5+8
+13 :: Num a => a
+
+3*5 + 8
+23 :: Num a => a
+
+2+4
+6 :: Num a => a
+
+(+) 2 4
+6 :: Num a => a
+
+sqrt 16
+4.0 :: Floating a => a
+
+succ 6
+7 :: (Num a, Enum a) => a
+
+succ 7
+8 :: (Num a, Enum a) => a
+
+pred 9
+8 :: (Num a, Enum a) => a
+
+pred 8
+7:: (Num a, Enum a) => a
+
+sin (pi/2)
+1.0 :: Floating a => a
+
+truncate pi
+3 :: Integral b => b
+
+round 3.5
+4 :: Integral b => b
+
+round 3.4
+3 :: Integral b => b
+
+floor 3.7
+3 :: Integral b => b
+
+ceiling 3.3
+4 :: Integral b => b

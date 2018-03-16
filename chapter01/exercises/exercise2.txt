@@ -1,0 +1,2 @@
+When we use :show bidings (show the current bindings made at the prompt), we see:
+x :: Num t => t = _
