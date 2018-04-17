@@ -1,0 +1,5 @@
+:load lastButOne.hs
+
+lastButOne [1,2,3]
+lastButOne ["left", "mid", "right"]
+lastButOne [False, True, False]

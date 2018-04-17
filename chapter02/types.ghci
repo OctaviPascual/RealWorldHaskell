@@ -1,0 +1,3 @@
+:t False
+:t (["foo", "bar"], 'a')
+:t [(True, []), (False, [['a']])]
